@@ -1,0 +1,14 @@
+.cage-hero {
+  width: 60%;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: #BCCCD1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}

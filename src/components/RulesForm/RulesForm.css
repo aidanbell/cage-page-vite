@@ -1,0 +1,13 @@
+.rules-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-end;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.rules-form-content {
+  margin: 1em;
+}

@@ -1,0 +1,6 @@
+.controls {
+  background-color: var(--tertiary-color);
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+}

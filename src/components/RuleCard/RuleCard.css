@@ -1,0 +1,13 @@
+.rule {
+  padding: 1em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+}
+
+.rules-toasts {
+  width: 20% !important;
+  margin-left: auto !important;
+  font-size: 1.1rem;
+}
