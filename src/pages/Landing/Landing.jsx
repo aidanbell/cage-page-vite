@@ -4,6 +4,7 @@ import "./Landing.css"
 export default function Landing() {
   return (
     <div className="wrapper">
+      <h1>THE CAGE PAGE</h1>
       <p>
         Have you ever wanted to watch a really terrible Nicolas Cage movie,
         but are concerned about how you can get through it without drinking

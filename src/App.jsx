@@ -24,6 +24,7 @@ export default function App() {
 
   const handleLogin = async (res) =>{
     let token = await login(res)
+    console.log(token)
     setToken(token)
     let user = await getUser()
     console.log(user)

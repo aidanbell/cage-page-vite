@@ -1,6 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+const ESBACKEND = "http://cage-page-backend.eba-vnkpz5mk.ca-central-1.elasticbeanstalk.com"
+const LOCALBACKEND = "http://localhost:3000"
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
@@ -8,7 +11,7 @@ export default defineConfig({
     proxy: {
       "/api": {
         target:
-          "http://cage-page-backend.eba-vnkpz5mk.ca-central-1.elasticbeanstalk.com",
+          ESBACKEND,
         changeOrigin: true,
       },
     },
