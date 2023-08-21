@@ -1,7 +1,7 @@
 import { getToken } from "./token-service";
 
 const BASE_URL =
-  "http://cage-page-backend.eba-vnkpz5mk.ca-central-1.elasticbeanstalk.com";
+  "https://backend.thecage.page/api";
 
 export default async function fetcher(url, method = "GET", payload = null) {
   const options = { method, headers: {} };
